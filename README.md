@@ -7,7 +7,7 @@ KCSkeleton is a project boilerplate script designed to automate the creation of 
 Clone the repositary 
 
 ```
-git clone
+git clone git@github.com:PranabZz/KCSkeleton.git
 ```
 Then you will see two folders 
 

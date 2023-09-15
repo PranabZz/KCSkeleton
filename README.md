@@ -7,7 +7,7 @@ KCSkeleton is a project boilerplate script designed to automate the creation of 
 Clone the repositary 
 
 ```
-git clone git@github.com:PranabZz/KCSkeleton.git
+git clone
 ```
 Then you will see two folders 
 
@@ -36,7 +36,54 @@ For Ts/node.js project
 ```bash
 ./ts.sh your_project_name
 ```
-                           
+
+## How your projects will look
+
+Here is a example of how your PHP porject will look like 
+```bash
+
+    new_project
+    ├── app
+    │   ├── controllers
+    │   ├── core
+    │   │   └── router.php
+    │   ├── models
+    │   └── views
+    │       └── views.php
+    ├── config
+    │   └── config.php
+    ├── index.php
+    └── public
+        ├── assets
+        ├── css
+        ├── img
+        └── js
+
+```
+
+Similarly the Ts/node.js project will look something like this 
+
+```bash 
+
+    project
+    ├── node_modules
+    ├── nodemon.json
+    ├── package.json
+    ├── package-lock.json
+    ├── src
+    │   ├── config
+    │   ├── controller
+    │   ├── helpers
+    │   ├── index.ts
+    │   ├── middleware
+    │   ├── models
+    │   ├── public
+    │   ├── router
+    │   └── utilis
+    └── tsconfig.json
+
+```
+                  
 
 
 ## Why Use This?
